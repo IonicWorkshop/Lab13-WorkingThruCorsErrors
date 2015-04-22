@@ -1,4 +1,10 @@
 {
     "name": "Lab13-WorkingThruCorsErrors",
     "app_id": ""
+  "proxies":[
+              {
+                  "path": "/api/endpoint",
+                  "proxyUrl": "https://ioniccorsdemoapi.herokuapp.com/api/endpoint"
+              }
+            ]
 }
