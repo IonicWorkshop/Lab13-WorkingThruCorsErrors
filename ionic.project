@@ -1,4 +1,10 @@
 {
   "name": "",
-  "app_id": ""
+  "app_id": "",
+  "proxies":[
+              {
+                  "path": "/api/endpoint",
+                  "proxyUrl": "https://ioniccorsdemoapi.herokuapp.com/api/endpoint"
+              }
+            ]
 }
