@@ -4,7 +4,7 @@ angular.module('starter.services', [])
         var getApiData = function() {
             var q = $q.defer();
 
-            $http.get('https://ioniccorsdemoapi.herokuapp.com/api/endpoint')
+            $http.get('/api/endpoint')
                 .success(function(data) {
                     console.log('Got some data: ', data)
                     q.resolve(data);
